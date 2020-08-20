@@ -5,11 +5,11 @@
 
 
 #titulos {
-    /*Novamente definimos a largura da div*/
+
     width:100%;
-    /* altura da div */
+
     height:50px;
-    /* Cor de fundo da div */
+
     background-color:#212529;
 }
 
