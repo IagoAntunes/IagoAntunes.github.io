@@ -619,3 +619,12 @@ button {
     width: 80%;
     height: 3.5rem;
 }
+
+#copy {
+    text-align: center;
+    font: 600 20px "Raleway",sans-serif;
+
+    color: white;
+    background: #03071e;
+
+}
