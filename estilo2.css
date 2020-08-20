@@ -506,6 +506,8 @@ a:hover{
     height: 3.5rem;
     border: 0;
     border-radius: 1rem;
+
+    cursor: pointer;
 }
 #linkedinD img{
     display: flex;
@@ -544,6 +546,8 @@ a:hover{
     height: 3.5rem;
     border: 0;
     border-radius: 1rem;
+
+    cursor: pointer;
 }
 #gitD img{
     display: flex;
@@ -570,6 +574,7 @@ a:hover{
 
     margin: 2rem;
     border: 0;
+
 }
 #instagram{
     display: flex;
@@ -582,6 +587,8 @@ a:hover{
     height: 3.5rem;
     border: 0;
     border-radius: 1rem;
+
+    cursor: pointer;
 }
 #insta img{
     display: flex;
