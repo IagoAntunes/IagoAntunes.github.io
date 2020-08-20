@@ -461,12 +461,155 @@ a:hover{
 }
 
 #contato{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
     width: 100%;
     height: 650px;
-
+    
     background: #03071e;
 }
 
-#redes{
+.redes{
+    width: 50%;
+    height: 460px;
+    border-radius: 20%;
 
+    background-color: white;
+}
+.redes h1{
+    font: 900 30px "Raleway",sans-serif;
+
+    margin-top: 2rem;
+    text-align: center;
+
+}
+#botoes{
+    margin-top: 3rem;
+}
+#linkedinD{
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem;
+    border: 0;
+}
+#linkedin{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+
+    background: #03071e;
+
+    width: 448px;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 1rem;
+}
+#linkedinD img{
+    display: flex;
+
+    margin-left: 3rem;
+    margin-top: 0.4rem;
+    widows: 40px;
+    height: 40px;
+}
+#linkedin h2{
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+    font: 600 25px "Raleway",sans-serif;
+
+    color: white;
+
+}
+#gitD{
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem;
+    border: 0;
+}
+#github{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+
+    background: #03071e;
+
+    width: 448px;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 1rem;
+}
+#gitD img{
+    display: flex;
+
+    margin-left: 3rem;
+    margin-top: 0.4rem;
+    widows: 40px;
+    height: 40px;
+}
+#github h2{
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+    font: 600 25px "Raleway",sans-serif;
+
+    color: white;
+
+}
+#insta{
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem;
+    border: 0;
+}
+#instagram{
+    display: flex;
+    justify-content: start;
+    text-align: center;
+
+    background: #03071e;
+
+    width: 448px;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 1rem;
+}
+#insta img{
+    display: flex;
+
+    margin-left: 3rem;
+    margin-top: 0.4rem;
+    widows: 40px;
+    height: 40px;
+}
+#instagram h2{
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 0.8rem;
+    margin-left: 5rem;
+    font: 600 25px "Raleway",sans-serif;
+
+    color: white;
+
+}
+#linkedin:hover,#github:hover,#instagram:hover{
+    width: 450px;
+    height: 3.6rem;
+
+    background: #040a31;
+}
+
+button {
+    width: 80%;
+    height: 3.5rem;
 }
