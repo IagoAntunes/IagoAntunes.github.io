@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+}
+#apresentacaoPortfolio{
+    display:flex;
+}
+body{
+    background: #191919;
+}
+
+#apresentacaoTexto h2{
+    color:white;
+}
+
+#apresentacaoTexto{
+    text-align: center;
+    padding:150px;
+    width:60%;
+    flex-direction:column;
+}
+
+@media screen and (max-width: 1000px){
+    #apresentacaoPortfolio{
+        padding:75px;
+    }
+}
+#apresentacaoPortfolio #apresentacaoTexto{
+    padding:150px;
+    width:60%;
+    flex-direction:column;
+}
+
+
+
+@media screen and (max-width: 1000px){
+    #apresentacaoPortfolio #apresentacaoTexto{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        text-align:center;
+        padding:0px;
+    }
+}
+#apresentacaoPortfolio #apresentacaoTexto h2{
+    color:#ffffff;
+    font: 400 18px 'Space-Mono',monospace;
+}
+#apresentacaoPortfolio #apresentacaoTexto h2 #nome{
+    text-transform:uppercase;
+    font-size:2.7rem;
+    font-weight:900;
+}
+#apresentacaoPortfolio #apresentacaoTexto h2 #profissao{
+    font-size:1.06rem;
+    text-transform:uppercase;
+}
+
+#apresentacaoPortfolio #apresentacaoTexto a{
+    background-color:#4070f4;
+    color:#fff;
+    padding:15px;
+    width:200px;
+    display:flex;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    border:none;
+    margin-top:30px;
+    font-size:16px;
+    font-weight:700;
+    font-family:"Space Mono",monospace;
+}
+#apresentacaoPortfolio #apresentacaoTexto a:hover{
+    cursor:pointer;
+    background-color:#3460da;
+}
+#apresentacaoPortfolio #apresentacaoTexto .midiasSociais{
+    width:150px;
+    display:flex;
+    justify-content:space-between;
+    margin-top:75px;
+    color:#0e2431;
+}
+#apresentacaoPortfolio #apresentacaoTexto .midiasSociais i{
+    font-size:24px;
+}
+#apresentacaoPortfolio #apresentacaoTexto .midiasSociais i:hover{
+cursor:pointer;
+color:#091a24;
+}
+/* APRESENTAÇÃO LADO ESQUERDO  PRA CIMA */
+
+@media screen and (max-width: 1000px){
+    #apresentacaoPortfolio #apresentacaoTexto .midiasSociais{
+        padding:40px 0px;margin:0 auto
+    }
+}
+#apresentacaoPortfolio #apresentacaoFoto{
+    width:70%;
+    position:relative;
+    height:100vh;
+}
+@media screen and (max-width: 1000px){
+    #apresentacaoPortfolio #apresentacaoFoto{
+        display:none
+        }
+    }
+#apresentacaoPortfolio #apresentacaoFoto #fundo{
+    width:100%;
+    max-width:950px;
+    position:absolute;
+    top:0;
+    right:0
+}
+@media screen and (max-width: 1000px){
+    #apresentacaoPortfolio #apresentacaoFoto #fundo{
+        display:none
+    }
+}
+.object{
+    animation:MoveUpDown 2s linear infinite;
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:4;
+    max-width:550px;
+    width:100%
+}
+@keyframes MoveUpDown{
+    0%,100%{top:0}50%{top:10px}
+}
+    
+#botoes{
+    display:flex;
+}
+#botoes a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+#botoes img{
+    height:30px;
+    width: 30px;
+    margin: 5px;
+    margin-right: 20px;
+}
+/* DAQUI PRA CIMA É A APRESENTAÇÃO*/
+
+main #sobre{
+    padding:50px 150px;
+    background-color:#232323;
+}
+
+@media screen and (max-width: 1000px){
+    main #sobre{
+        padding:70px 20px
+    }
+}
+    main #sobre #sobreMim{
+        display:flex;
+        padding:25px 0px;
+        align-items:center
+    }
+    main #sobre #sobreFoto{
+        width:40%;
+        padding-right:30px;
+    }
+    main #sobre #sobreFoto img{
+        width: 400px;
+        height: 400px;
+    }
+@media screen and (max-width: 1000px){
+    main #sobre #sobreFoto{
+        display:none;
+    }
+}
+main #sobre #sobreTexto{
+    width:60%;
+    padding-left:30px;
+}
+@media screen and (max-width: 1000px){
+    main #sobre #sobreTexto{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding-left:0px;
+        text-align:center;
+        color:white;
+}
+}
+main #sobre #sobreTexto h3{
+    font: 100 30px 'Space-Mono',monospace;
+    padding-bottom:20px;
+    color:#f8f8f8;
+}
+main #sobre #sobreTexto p{
+    font: 300 16px 'Space-Mono',monospace;
+    line-height:33px;
+    color: #f8f8f8;
+}
+main #sobre #sobreTexto p:nth-child(2){
+    padding-bottom:20px;
+}
+main #sobre a{
+    background-color:#4070f4;
+    color:#fff;
+    padding:15px;
+    width:200px;
+    display:flex;
+    align-self:center;
+    align-items:center;
+    justify-content:center;
+    border-radius:10px;
+    border:none;
+    margin-top:30px;
+    font-size:16px;
+    font-weight:700;
+    font-family:"Space Mono",monospace;
+    text-decoration: none;
+}
+main #sobre a:hover{
+    cursor:pointer;
+    background-color:#3460da;
+}
+
+    /* Nao vai pra cima */
+
+main #projetos{
+    padding:70px;text-align:center
+}
+main #projetos #linkRepo{
+    font: 200 20px 'Space-Mono',monospace;
+    color:#4070f4;
+    text-decoration: none;
+}
+main #projetos h2{
+    font: 800 30px 'Space-Mono',monospace;
+    text-align:center;
+    margin-top:20px;
+    color:#f8f8f8;
+}
+main #projetos article{
+    padding:25px 0px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    text-align:left
+}
+main #projetos article div{
+    height:auto;
+    flex-grow:1;
+    flex-basis:300px;
+    background-color:#232323;
+    box-shadow:none;
+    padding:40px 40px 80px 40px;
+    margin:10px;
+    border-radius:5px;
+    position:relative
+}
+main #projetos article div h3{
+    font: 800 1.2rem 'Space-Mono',monospace;
+    color: white;
+}
+main #projetos article div p{
+    font: 100 0.9rem 'Space-Mono',monospace;
+    color:#f8f8f8;
+    margin:20px 0px;
+}
+main #projetos article div .botoes-projetos{
+    position:absolute;
+    bottom:40px;
+    left:40px
+}
+main #projetos article div a{
+    margin-right:10px
+}
+main #projetos article div .aovivo-button{
+    font: 800 14px 'Space-Mono',monospace;
+    background-color:#4070f4;
+    padding:10px 20px;
+    color:#fff;
+    border:0;
+    font-weight:500;
+    border-radius:5px;
+    text-transform:uppercase;
+    cursor:pointer
+}
+main #projetos article div .aovivo-button:hover{
+    cursor:pointer;
+    background-color:#3460da
+}
+main #projetos article div .github-button{
+    width:45px;
+    height:45px;
+    font-size:20px;
+    border-radius:50%;
+    background-color:#4070f4;
+    color:#fff;
+    border:0;
+    border-radius:50%;
+    cursor:pointer
+}
+main #projetos article div .github-button:hover{
+    cursor:pointer;
+    background-color:#3460da
+}
+@media screen and (max-width: 800px){
+    main #projetos{padding:70px 10px}
+}
+main #servicos{
+    background-color:#232323;padding:70px
+}
+main #servicos h2{
+    text-align:center;
+    margin-top:20px;
+    color:white;
+    font-size:30px;
+}
+main #servicos article{display:flex;height:auto;flex-wrap:wrap;margin-top:20px
+}
+main #servicos div{
+    text-align:center;
+    height:auto;
+    background-color:#191919;
+    padding:30px;
+    border-radius:15px;
+    margin:10px;
+    flex-basis:250px;
+    flex-grow:1;
+}
+main #servicos div h2{
+    color: white;
+    font: 600 20px 'Space-Mono',monospace;
+    padding:20px 0px
+}
+main #servicos div p{
+    font: 100 17px 'Space-Mono',monospace;
+    color: white;
+    line-height:30px
+}
+main #servicos img{
+    height: 120px;
+    width: 120px;
+}
+
+#contato{
+    font: 600 17px 'Space-Mono',monospace;
+    color: white;
+    background-color:#191919;
+    padding:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+#contato fieldset{
+    border:none
+}
+#contato #agradecimento{
+    width:30%;
+    height:300px;
+    background-color:#4070f4;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    text-align:center;
+    position:relative
+}
+#contato #agradecimento div{
+    
+    width:80%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+#contato #agradecimento h2{
+    color: white;
+}
+#contato #agradecimento h4{
+    color:#fff;
+}
+#contato #camposContato{
+    background-color:#191919;
+    width:60%;
+    height:auto;
+    border-radius:10px;
+    box-shadow:0px 0px 20px #0e0606;
+    padding:30px
+}
+#contato #camposContato #campoFlex{
+    display:flex;
+    justify-content:space-between
+}
+#contato #camposContato .campoPadrao{
+    width:47%
+}
+#contato #camposContato input{
+    border:none;padding-left:15px;
+    margin-top:10px;
+    font-size:14px
+}
+#contato #camposContato textarea{
+    color: white;
+    border:none;
+    background-color:#f0f0f0;
+    padding:10px 15px;
+    margin-top:10px;
+    font-size:14px
+}
+#contato #camposContato .campos
+{
+    width:100%;
+    height:40px;
+    border-radius:5px;
+    background-color:#f0f0f0
+}
+#contato #camposContato #captcha{
+    font-size:20px;
+    float:right
+}
+#contato #camposContato #captcha #campo
+{width:40px;
+    height:30px;
+    background-color:#ddd;
+    padding-left:15px;
+    border-radius:5px
+}
+#contato #campoDois{
+    margin-top:20px
+}
+#contato #campoDois #campoMensagem{
+    width:100%;
+    height:150px;
+    border-radius:5px
+}
+#contato #botao{
+    margin-top:20px;
+    background-color:#4070f4;
+    color:#fff;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:700
+}
+#contato #botao:hover{
+    background-color:#3460da
+}
+@media screen and (max-width: 1100px){
+    #contato{
+        padding:70px 20px
+    }
+    #contato #agradecimento{display:none}
+    #contato #camposContato{width:100%}
+}
+@media screen and (max-width: 650px){
+    #contato #camposContato #campoFlex{
+        flex-wrap:wrap
+    }
+    #contato #camposContato #campoFlex #espacoResponsivo{
+        margin-top:20px
+    }
+    #contato #camposContato .campoPadrao{width:100%}
+}
+
+footer{
+    padding:25px 10px;
+    background-color:#232323;
+    text-align:center}
+footer p{
+    font: 600 17px 'Space-Mono',monospace;
+    color:#fff;
+    padding:5px;
+    font-size:14px;
+    font-weight:200;
+}
+footer #midiasSociaisFooter i{
+    padding:0px 20px;
+    color:#fff;
+    font-size:24px
+}
+
